@@ -1,0 +1,7 @@
+You wake in a pile of loose rubble.
+
+The thunderous roar of machinery echoes around you, filling your ears 
+with sounds of scraping, whirring, and kinetics.
+
+1. Cover your ears. The noise is overwhelming!
+2. Tough it out: the sound isn't that bad, anyway.

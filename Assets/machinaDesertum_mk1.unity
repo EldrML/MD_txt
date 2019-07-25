@@ -767,6 +767,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607241346}
   m_CullTransparentMesh: 0
+--- !u!1 &635379901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 635379903}
+  - component: {fileID: 635379902}
+  m_Layer: 0
+  m_Name: Game Flow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &635379902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635379901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ea64437232d5a4f955e739abd9b5b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1961429855}
+  startingState: {fileID: 11400000, guid: 6b5e2dbaff06437409aa02df087db242, type: 2}
+--- !u!4 &635379903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635379901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &666347725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,8 +1276,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 83, y: -136.09999}
-  m_SizeDelta: {x: 1487.9, y: 513.1}
+  m_AnchoredPosition: {x: 83, y: -159.3}
+  m_SizeDelta: {x: 1487.9, y: 559.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1961429855
 MonoBehaviour:
@@ -1267,11 +1312,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'A world of sand and steel awaits you. Parched winds whisper of a land of
-    green. Can you hear them? Will you find it?
-
-
-    You may make friends in strange places.'
+  m_Text: "You wake in a pile of loose rubble. \n\nThe thunderous roar of machinery
+    echoes around you, forcing your hands to your ears to stop the noise. the motion
+    provides little comfort: your ears stil ring from the sounds of scraping, whirring,
+    and kinetics.\n\nAfter a long moment, you brace yourself to stand. On your feet,
+    you have just enough time to brush loose dust off your tattered clothes before
+    a voice says: \"Lovely afternoon, eh?\"\n\nThe voice is coming from inside your
+    head."
 --- !u!222 &1961429856
 CanvasRenderer:
   m_ObjectHideFlags: 0
