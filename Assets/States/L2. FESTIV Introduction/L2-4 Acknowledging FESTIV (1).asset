@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5252595e57d504ea7ce60a5ea012a8, type: 3}
+  m_Name: L2-4 Acknowledging FESTIV (1)
+  m_EditorClassIdentifier: 
+  storyText: "\"Not that you'd be able to understand me\u2014\" the voice cuts off
+    as your head moves. \"Pristine parts! You...couldn't possibly be understanding
+    me, could you?\"\r\n\r\n1. Nod again. You don't trust yourself to speak just yet.\r\n2.
+    Shake your head.\r\n3. Do nothing."
+  nextStates:
+  - {fileID: 11400000, guid: b2b8c0427c339214bbf08ade12c47bf5, type: 2}
+  - {fileID: 11400000, guid: 288e44371e7097948b1ab2eb3ad3d09e, type: 2}
+  - {fileID: 11400000, guid: 255314dcad3caf84db165da32fb6105d, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5252595e57d504ea7ce60a5ea012a8, type: 3}
+  m_Name: L2-10 Ignoring FESTIV (3)
+  m_EditorClassIdentifier: 
+  storyText: "After another moment, the voice sighs. \"Well, I don't know what I expected.
+    Unless you suddenly speak binary, All this talk is moot anyway. Enjoy your stay,
+    and do try not to break anything.\r\n\r\n1. Give a thumbs up to...whoever is talking.\r\n2.
+    Walk forward. Time to figure out where you are.\r\n\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: cf7e12353cf965a4bb842ed75a4c97e8, type: 2}
+  - {fileID: 11400000, guid: 28b6320ac18caf4438cdfcaa6753091a, type: 2}

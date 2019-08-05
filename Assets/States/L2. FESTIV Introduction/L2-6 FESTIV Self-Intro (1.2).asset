@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5252595e57d504ea7ce60a5ea012a8, type: 3}
+  m_Name: L2-6 FESTIV Self-Intro (1.2)
+  m_EditorClassIdentifier: 
+  storyText: "\"Aha! Delightful! Cheeky, too,\" says the voice, now brimming with
+    excitement. \"Rust my gears, I did not expect this. Hello! Hello hello! So nice
+    to truly meet you.\"\r\n\r\nThe voice clears its'...throat, then says, \"You may
+    call me festive\u2014that's F-E-S-T-I-V. An acronym\u2014shortens a dreadfully
+    long official name.\r\"\n\r\n1. Glance around in confusion. Who...is talking?\r\n2.
+    Hold out a hand, waving it around. Maybe a ghost will shake it."
+  nextStates:
+  - {fileID: 11400000, guid: 36d4605414b9bf5429fa81723441a23e, type: 2}
+  - {fileID: 11400000, guid: 36d4605414b9bf5429fa81723441a23e, type: 2}

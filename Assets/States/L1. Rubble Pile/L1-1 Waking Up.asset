@@ -10,19 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd5252595e57d504ea7ce60a5ea012a8, type: 3}
-  m_Name: StartingState
+  m_Name: L1-1 Waking Up
   m_EditorClassIdentifier: 
-  storyText: 'You wake in a pile of loose, mechanical  rubble. Bits of metal trail
-    down your shirt as you move.
-
-
-    The thunderous roar of machinery echoes around you, filling your ears with sounds
-    of scraping, whirring, and kinetics.
-
-
-    1. Cover your ears. The noise is overwhelming!
-
-    2. Tough it out--the sound isn''t that bad, anyway.'
+  storyText: "You wake in a pile of loose, mechanical rubble. Bits of metal trail
+    down your shirt as you move.\r\n\r\nThe thunderous roar of machinery echoes around
+    you, filling your ears with sounds of scraping, whirring, and kinetics.\r\n\r\n1.
+    Cover your ears. The noise is overwhelming!\r\n2. Tough it out\u2014the sound
+    isn't that bad, anyway.\r\n3. Lick your lips: they're dry."
   nextStates:
   - {fileID: 11400000, guid: 105d59fec13936f41b658b37845f305d, type: 2}
   - {fileID: 11400000, guid: 07315ad2b1db6a2428f8057fc4f77285, type: 2}

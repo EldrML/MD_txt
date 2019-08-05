@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd5252595e57d504ea7ce60a5ea012a8, type: 3}
-  m_Name: Ignore the Noise
+  m_Name: L2-9 Ignoring FESTIV (2)
   m_EditorClassIdentifier: 
-  storyText: "The keening noises of old machines is almost too much. Almost. You fortify
-    yourself with a deep breath, sucking down stoicism, garnished with rusted air.\r\n\r\n1.
-    Stand up."
-  nextStates: []
+  storyText: "\"Hm...must have imagined it. As much as I can imagine anything, I suppose.\"
+    A note of defeat tinges the voice.\r\n\r\n1. Continue."
+  nextStates:
+  - {fileID: 11400000, guid: 649869b18c0442b44a7a8286389b92bb, type: 2}

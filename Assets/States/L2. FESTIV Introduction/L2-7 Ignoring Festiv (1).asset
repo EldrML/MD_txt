@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5252595e57d504ea7ce60a5ea012a8, type: 3}
+  m_Name: L2-7 Ignoring Festiv (1)
+  m_EditorClassIdentifier: 
+  storyText: "\"Not that you'd be able to understand me anyway, being human and all.
+    What use are all these words\u2014who's...who's going to talk to me anyway, the
+    plant-takers? Bah. Grind them all.\"\r\n\r\n1. Shrug. Grind away, you suppose.\r\n2.
+    Do nothing. This can't be real. What kind of voice can you hear inside your head?"
+  nextStates:
+  - {fileID: 11400000, guid: cf7e12353cf965a4bb842ed75a4c97e8, type: 2}
+  - {fileID: 11400000, guid: 649869b18c0442b44a7a8286389b92bb, type: 2}

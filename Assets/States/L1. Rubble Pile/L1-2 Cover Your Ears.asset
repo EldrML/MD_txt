@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd5252595e57d504ea7ce60a5ea012a8, type: 3}
-  m_Name: Cover Your Ears
+  m_Name: L1-2 Cover Your Ears
   m_EditorClassIdentifier: 
   storyText: "You clamp your hands over your ears in a reflexive attempt to block
     out the noise. Unfortunately, the human hand was not made to protect against such
     an indignant sound. Shuddering, metallic screeches throb against your skull.\r\n\r\n1.
     Cower on the ground.\r\n2. Grit your teeth. Stand."
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 76787dc563f173947991cc621d11e257, type: 2}
+  - {fileID: 11400000, guid: 0fcdbe8dc51943e48a5becfb7c3efb4b, type: 2}

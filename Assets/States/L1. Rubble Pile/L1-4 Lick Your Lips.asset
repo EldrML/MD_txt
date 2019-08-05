@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd5252595e57d504ea7ce60a5ea012a8, type: 3}
-  m_Name: Lick Your Lips
+  m_Name: L1-4 Lick Your Lips
   m_EditorClassIdentifier: 
-  storyText: "How long were you lying there? Your lips burn with the sensation of
+  storyText: "How  long were you lying there? Your lips burn with the sensation of
     one too many cracks; any movement is liable to split them again.\r\n\r\nDespite
     yourself, you lick your lips, more to distract from the noise than to relieve
-    them.\r\n\r\n1. Stand up."
-  nextStates: []
+    them.\r\n\r\n1. Try to withstand the noise.\n2. Stand up."
+  nextStates:
+  - {fileID: 11400000, guid: 76787dc563f173947991cc621d11e257, type: 2}
+  - {fileID: 11400000, guid: 0fcdbe8dc51943e48a5becfb7c3efb4b, type: 2}
