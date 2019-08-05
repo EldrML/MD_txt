@@ -23,3 +23,7 @@ MonoBehaviour:
     1. Cover your ears. The noise is overwhelming!
 
     2. Tough it out--the sound isn''t that bad, anyway.'
+  nextStates:
+  - {fileID: 11400000, guid: 105d59fec13936f41b658b37845f305d, type: 2}
+  - {fileID: 11400000, guid: 07315ad2b1db6a2428f8057fc4f77285, type: 2}
+  - {fileID: 11400000, guid: ecf406a6a018ee241851d726acb6fc6d, type: 2}

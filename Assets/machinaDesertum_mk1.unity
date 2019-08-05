@@ -546,7 +546,6 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -554,14 +553,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1312,13 +1303,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You wake in a pile of loose rubble. \n\nThe thunderous roar of machinery
-    echoes around you, forcing your hands to your ears to stop the noise. the motion
-    provides little comfort: your ears stil ring from the sounds of scraping, whirring,
-    and kinetics.\n\nAfter a long moment, you brace yourself to stand. On your feet,
-    you have just enough time to brush loose dust off your tattered clothes before
-    a voice says: \"Lovely afternoon, eh?\"\n\nThe voice is coming from inside your
-    head."
+  m_Text: Lorem Ipsum.
 --- !u!222 &1961429856
 CanvasRenderer:
   m_ObjectHideFlags: 0
